@@ -60,22 +60,12 @@ const IntroSection = ()=>{
                         className: "text-3xl md:text-5xl font-bold max-w-2xl text-fore-primary",
                         children: "Developer Portfolio"
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
-                        className: "mb-4 max-w-lg",
-                        children: [
-                            "This portfolio template is powered by ",
-                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                children: "Cosmic"
-                            }),
-                            "."
-                        ]
-                    }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex items-center",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                 // upload your resume either on Cosmic or in the public file of this directory
-                                href: "/your_resume_here.pdf",
+                                href: "https://drive.google.com/file/d/1MCMrdc39kXZS2gqdONaAfAHw0yig5EsE/view?usp=sharing",
                                 className: "flex items-center mr-4 text-fore-primary border-2 border-accent w-fit px-4 py-1 rounded cursor-pointer hover:text-accent transition-colors",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("span", {

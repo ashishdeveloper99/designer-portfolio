@@ -169,13 +169,13 @@ const ThemeChanger = ({ styles  })=>{
     (0,external_react_.useEffect)(()=>setMounted(true), []);
     if (!mounted) return null;
     return /*#__PURE__*/ jsx_runtime_.jsx("button", {
-        "aria-label": resolvedTheme === "dark" ? "Activate Light Mode" : "Activate Dark Mode",
-        title: resolvedTheme === "dark" ? "Activate Light Mode" : "Activate Dark Mode",
+        "aria-label": resolvedTheme === "light" ? "Activate Dark Mode" : "Activate Light Mode",
+        title: resolvedTheme === "light" ? "Activate Dark Mode" : "Activate Light Mode",
         onClick: ()=>{
-            setTheme(resolvedTheme === "dark" ? "light" : "dark");
+            setTheme(resolvedTheme === "light" ? "dark" : "light");
         },
         className: styles,
-        children: resolvedTheme === "dark" ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
+        children: resolvedTheme === "light" ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
             className: "block w-4 h-4 bg-white rounded-full group-hover:-translate-y-1 transition-transform"
         }) : /*#__PURE__*/ jsx_runtime_.jsx("span", {
             className: "block w-4 h-4 bg-black rounded-full group-hover:-translate-y-1 transition-transform"

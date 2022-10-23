@@ -11,13 +11,10 @@ const IntroSection = () => {
         <h1 className="text-3xl md:text-5xl font-bold max-w-2xl text-fore-primary">
           Developer Portfolio
         </h1>
-        <h2 className="mb-4 max-w-lg">
-          This portfolio template is powered by <strong>Cosmic</strong>.
-        </h2>
         <div className="flex items-center">
           <a
             // upload your resume either on Cosmic or in the public file of this directory
-            href="/your_resume_here.pdf"
+            href="https://drive.google.com/file/d/1MCMrdc39kXZS2gqdONaAfAHw0yig5EsE/view?usp=sharing"
             className="flex items-center mr-4 text-fore-primary border-2 border-accent w-fit px-4 py-1 rounded cursor-pointer hover:text-accent transition-colors"
           >
             <span className="mr-2">
