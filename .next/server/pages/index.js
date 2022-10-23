@@ -174,24 +174,24 @@ const DevIcon = ({ iconName , name  })=>{
 ;// CONCATENATED MODULE: ./src/configs/dev-icons.js
 const devIcons = [
     {
+        iconName: "devicon-spring-plain",
+        name: "SpringBoot"
+    },
+    {
+        iconName: "devicon-mysql-plain",
+        name: "Mysql"
+    },
+    {
+        iconName: "devicon-java-plain",
+        name: "Java"
+    },
+    {
         iconName: "devicon-html5-plain",
         name: "HTML"
     },
     {
         iconName: "devicon-css3-plain",
         name: "CSS"
-    },
-    {
-        iconName: "devicon-javascript-plain",
-        name: "JavaScript"
-    },
-    {
-        iconName: "devicon-typescript-original",
-        name: "TypeScript"
-    },
-    {
-        iconName: "devicon-java-plain",
-        name: "Java"
     },
     {
         iconName: "devicon-react-original",
@@ -214,12 +214,12 @@ const devIcons = [
         name: "Git"
     },
     {
-        iconName: "devicon-spring-plain",
-        name: "SpringBoot"
+        iconName: "devicon-javascript-plain",
+        name: "JavaScript"
     },
     {
-        iconName: "devicon-mysql-plain",
-        name: "Mysql"
+        iconName: "devicon-typescript-original",
+        name: "TypeScript"
     }, 
 ];
 
