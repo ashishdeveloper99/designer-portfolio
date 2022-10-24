@@ -7,13 +7,14 @@ export const routes = [
     label: 'Home',
   },
   {
-    path: '/posts',
-    label: 'Posts',
-  },
-  {
     path: '/works',
     label: 'Works',
   },
+  {
+    path: '/posts',
+    label: 'Posts',
+  },
+ 
   {
     path: '/about',
     label: 'About',

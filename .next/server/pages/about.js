@@ -11,7 +11,7 @@ exports.modules = {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/avatar_4.672985f7.png","height":578,"width":500,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAV1BMVEVMaXFuV1WOenmZcWrx8/fMtLCskYrr8fzJxtBLMS/X2Of+///t6+3j4eRAMTh6UEVIO0ZBQEjBlovV1uXg5fW2kor8//+afnWpnqWchoa/nZKedm/Nzdx8TXYEAAAAE3RSTlMASe32/fz9/v4eoJm9QEf+ky5Csjl+dAAAAAlwSFlzAAALEwAACxMBAJqcGAAAADtJREFUCJkNxccBgDAQBLFxXB/JJBP77xP0EbDME4D52xvgcmoOWJ8WDPohv2GEI571UkdUSftWkKT/DzoUAhHSAqIOAAAAAElFTkSuQmCC","blurWidth":7,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/avatar_4.c362c4ce.png","height":320,"width":453,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAS1BMVEX////HzcuZjIM5MjL//vjIxcDp7OOw1t779uj9+/P779i0ycna2MqvraeBenewnID4z6D0rCbmwF1gW1igzN6kekj/0mHMoWbalivIWtEaAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAN0lEQVQImRXGSRKAIBAAsWadQVEWBf3/SykuqQDgNxCzatq5rdcjEa6vRhGDdf+UV06MG62XJywa4QFwAc+GDwAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":6});
 
 /***/ }),
 

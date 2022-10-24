@@ -71,12 +71,12 @@ const routes = [
         label: "Home"
     },
     {
-        path: "/posts",
-        label: "Posts"
-    },
-    {
         path: "/works",
         label: "Works"
+    },
+    {
+        path: "/posts",
+        label: "Posts"
     },
     {
         path: "/about",
@@ -169,13 +169,13 @@ const ThemeChanger = ({ styles  })=>{
     (0,external_react_.useEffect)(()=>setMounted(true), []);
     if (!mounted) return null;
     return /*#__PURE__*/ jsx_runtime_.jsx("button", {
-        "aria-label": resolvedTheme === "light" ? "Activate Dark Mode" : "Activate Light Mode",
-        title: resolvedTheme === "light" ? "Activate Dark Mode" : "Activate Light Mode",
+        "aria-label": resolvedTheme === "dark" ? "Activate Dark Mode" : "Activate Light Mode",
+        title: resolvedTheme === "dark" ? "Activate Dark Mode" : "Activate Light Mode",
         onClick: ()=>{
-            setTheme(resolvedTheme === "light" ? "dark" : "light");
+            setTheme(resolvedTheme === "dark" ? "light" : "dark");
         },
         className: styles,
-        children: resolvedTheme === "light" ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
+        children: resolvedTheme === "dark" ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
             className: "block w-4 h-4 bg-white rounded-full group-hover:-translate-y-1 transition-transform"
         }) : /*#__PURE__*/ jsx_runtime_.jsx("span", {
             className: "block w-4 h-4 bg-black rounded-full group-hover:-translate-y-1 transition-transform"
@@ -198,11 +198,11 @@ const Logo = ()=>{
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "text-sm",
-                        children: "cosmicjs"
+                        children: "ashishd"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "text-sm text-accent",
-                        children: ".com"
+                        children: ".online`"
                     })
                 ]
             })
