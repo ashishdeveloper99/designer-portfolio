@@ -25,14 +25,14 @@ const IntroSection = () => {
           <SocialIcons />
         </div>
       </div>
-      <div className="w-[80px] sm:w-[186px] relative mb-6 sm:mb-0 rounded-full">
+      <div className="w-[80px] sm:w-[186px] relative mb-6 sm:mb-0 rounded-md">
         <Image
           src={avatar}
           alt="Ashish Dhomne"
-          height={186}
-          width={186}
-          quality={60}
-          className="rounded-full"
+          height={300}
+          width={350}
+          quality={80}
+          className="rounded-lg"
           placeholder="blur"
         />
       </div>

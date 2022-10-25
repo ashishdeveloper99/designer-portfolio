@@ -20,7 +20,7 @@ const PostHeader = ({ post }) => {
             placeholder="blur"
           />
           <span className="ml-2 text-sm">
-            Stefan Kudla |{' '}
+            Ashish Dhomne |{' '}
             <Date dateString={post.created_at} formatStyle="LLLL dd, yyyy" /> |{' '}
             {post.metadata.category.title}
           </span>

@@ -81,7 +81,7 @@ const About = ({ preview  })=>{
                                             children: "I love solving problems!"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "My name is Stefan Kudla. Originally from rainy Seattle, Washington, I now reside in the dry valley of Las Vegas, Nevada. When I'm not writing code, you can usually find me brushing my teeth with coffee or looking for the best view atop a mountain."
+                                            children: "My name is Ashish. Originally from rainy Seattle, Washington, I now reside in the dry valley of Las Vegas, Nevada. When I&apos"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                             children: "Get in touch to create something awesome together!"

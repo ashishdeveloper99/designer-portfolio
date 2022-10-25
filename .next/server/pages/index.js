@@ -81,14 +81,14 @@ const IntroSection = ()=>{
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "w-[80px] sm:w-[186px] relative mb-6 sm:mb-0 rounded-full",
+                className: "w-[80px] sm:w-[186px] relative mb-6 sm:mb-0 rounded-md",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: avatar_4/* default */.Z,
                     alt: "Ashish Dhomne",
-                    height: 186,
-                    width: 186,
-                    quality: 60,
-                    className: "rounded-full",
+                    height: 300,
+                    width: 350,
+                    quality: 80,
+                    className: "rounded-lg",
                     placeholder: "blur"
                 })
             })
@@ -120,10 +120,6 @@ const AboutMeSection = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8",
                 children: "Coming from a background in audio engineering and music production, I quickly found that writing code was a bit like putting the secret sauce on a vocal mix; there's not necessarily a single way to do it, and the person behind the keyboard has the power to put their style into a great solution."
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                className: "text-fore-primary mb-8",
-                children: "My favorite part about coding is the constant innovation of architectures, libraries, and frameworks. I think web development is experiencing a major breakthrough with headless architecture and jamstack, and want to be involved in any way I can."
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                 href: "/about",
@@ -365,7 +361,7 @@ const Index = ({ allPosts , allWorks , preview  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Meta/* PageMeta */.Vj, {
-                title: "Cosmic | Developer Portfolio",
+                title: "Developer Portfolio",
                 description: "Developer Portfolio Template built with Next.js and Cosmic"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Layout/* default */.Z, {

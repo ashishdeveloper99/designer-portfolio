@@ -226,7 +226,7 @@ const PostHeader = ({ post  })=>{
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
                             className: "ml-2 text-sm",
                             children: [
-                                "Stefan Kudla |",
+                                "Ashish Dhomne |",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx(components_Date/* default */.Z, {
                                     dateString: post.created_at,

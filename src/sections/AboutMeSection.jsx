@@ -19,12 +19,6 @@ const AboutMeSection = () => {
         the person behind the keyboard has the power to put their style into a
         great solution.
       </p>
-      <p className="text-fore-primary mb-8">
-        My favorite part about coding is the constant innovation of
-        architectures, libraries, and frameworks. I think web development is
-        experiencing a major breakthrough with headless architecture and
-        jamstack, and want to be involved in any way I can.
-      </p>
       <Link href="/about">
         <a className="flex items-center text-accent underline underline-offset-2 cursor-pointer hover:opacity-70 transition hover:translate-x-1 w-fit">
           <span className="mr-1">
