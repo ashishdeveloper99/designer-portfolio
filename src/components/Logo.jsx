@@ -9,7 +9,7 @@ const Logo = () => {
       >
         <div className="overflow-hidden transition ease-in-out rounded-full  hover:opacity-60">
           <span className="text-sm">ashishd</span>
-          <span className="text-sm text-accent">.online`</span>
+          <span className="text-sm text-accent">.online</span>
         </div>
       </a>
     </Link>

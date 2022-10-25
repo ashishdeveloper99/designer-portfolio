@@ -202,7 +202,7 @@ const Logo = ()=>{
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "text-sm text-accent",
-                        children: ".online`"
+                        children: ".online"
                     })
                 ]
             })
