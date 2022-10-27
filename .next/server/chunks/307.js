@@ -76,7 +76,7 @@ const routes = [
     },
     {
         path: "/posts",
-        label: "Posts"
+        label: "Blog"
     },
     {
         path: "/about",

@@ -12,7 +12,7 @@ export const routes = [
   },
   {
     path: '/posts',
-    label: 'Posts',
+    label: 'Blog',
   },
  
   {
