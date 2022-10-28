@@ -9,11 +9,12 @@ const AboutMeSection = () => {
         About Me
       </h3>
       <p className="text-fore-primary mb-8 ">
-        I love working with jamstack and headless architecture. I am currently
-        building with TypeScript, Cosmic, Next.js, Tailwind CSS, and Node.js.
+      Hi, I am a recently completed my . 
+      I have developed WebApps, APIs, Desktop Apps and Android Apps and 
+      I want to improve on Web technologies such as .NET Core  or  Node.js and React..
       </p>
       <p className="text-fore-primary mb-8">
-        Coming from a background in audio engineering and music production, I
+        Coming from a background from Commerce , I
         quickly found that writing code was a bit like putting the secret sauce
         on a vocal mix; there&apos;s not necessarily a single way to do it, and
         the person behind the keyboard has the power to put their style into a

@@ -58,7 +58,7 @@ const IntroSection = ()=>{
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                         className: "text-3xl md:text-5xl font-bold max-w-2xl text-fore-primary",
-                        children: "Developer Portfolio"
+                        children: "Hello, I am Ashish"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex items-center",
@@ -115,11 +115,11 @@ const AboutMeSection = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8 ",
-                children: "I love working with jamstack and headless architecture. I am currently building with TypeScript, Cosmic, Next.js, Tailwind CSS, and Node.js."
+                children: "Hi, I am a recently graduated Computer Engineer. I have developed WebApps, APIs, Desktop Apps and Android Apps and I want to improve on Web technologies such as .NET Core  or  Node.js and React.."
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8",
-                children: "Coming from a background in audio engineering and music production, I quickly found that writing code was a bit like putting the secret sauce on a vocal mix; there's not necessarily a single way to do it, and the person behind the keyboard has the power to put their style into a great solution."
+                children: "Coming from a background from Commerce , I quickly found that writing code was a bit like putting the secret sauce on a vocal mix; there's not necessarily a single way to do it, and the person behind the keyboard has the power to put their style into a great solution."
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                 href: "/about",
@@ -361,7 +361,7 @@ const Index = ({ allPosts , allWorks , preview  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Meta/* PageMeta */.Vj, {
-                title: "Developer Portfolio",
+                title: "Ashishd.online",
                 description: "Developer Portfolio Template built with Next.js and Cosmic"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Layout/* default */.Z, {

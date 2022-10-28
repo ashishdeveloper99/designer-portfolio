@@ -12,7 +12,7 @@ const Index = ({ allPosts, allWorks, preview }) => {
   return (
     <>
       <PageMeta
-        title="Developer Portfolio"
+        title="Ashishd.online"
         description="Developer Portfolio Template built with Next.js and Cosmic"
       />
       <Layout preview={preview}>
