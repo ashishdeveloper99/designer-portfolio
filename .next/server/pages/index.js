@@ -115,7 +115,7 @@ const AboutMeSection = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8 ",
-                children: "Hi, I am a recently graduated Computer Engineer. I have developed WebApps, APIs, Desktop Apps and Android Apps and I want to improve on Web technologies such as .NET Core  or  Node.js and React.."
+                children: "Hi, I am a recently completed my . I have developed WebApps, APIs, Desktop Apps and Android Apps and I want to improve on Web technologies such as .NET Core  or  Node.js and React.."
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8",
@@ -161,6 +161,26 @@ const DevIcon = ({ iconName , name  })=>{
 const devIcons = [
     {
         iconName: "devicon-spring-plain",
+        name: "Spring"
+    },
+    {
+        iconName: "devicon-react-plain",
+        name: "React"
+    },
+    {
+        iconName: "devicon-digitalocean-plain",
+        name: "Digitalocean"
+    },
+    {
+        iconName: "devicon-azure-plain",
+        name: "azure"
+    },
+    {
+        iconName: "devicon-docker-plain",
+        name: "Docker"
+    },
+    {
+        iconName: "devicon-spring-plain",
         name: "SpringBoot"
     },
     {
@@ -200,12 +220,16 @@ const devIcons = [
         name: "Git"
     },
     {
+        iconName: "devicon-github-plain",
+        name: "Git"
+    },
+    {
         iconName: "devicon-javascript-plain",
         name: "JavaScript"
     },
     {
-        iconName: "devicon-typescript-original",
-        name: "TypeScript"
+        iconName: "devicon-ubuntu-plain",
+        name: "ubuntu"
     }, 
 ];
 
