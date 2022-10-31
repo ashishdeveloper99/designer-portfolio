@@ -39,7 +39,7 @@ const About = ({ preview }) => {
               <p>Get in touch to create something awesome together!</p>
               <div className="flex items-center md:mt-6">
                 <a
-                  href="/your_resume_here.pdf"
+                  href="https://drive.google.com/file/d/1Fvfrb993eFMChLDFML6JDgM3FugMDUCH/view?usp=share_link"
                   className="flex items-center mr-4 text-fore-primary border-2 border-accent w-fit px-4 py-1 rounded cursor-pointer hover:text-accent transition-colors"
                 >
                   <span className="mr-2">

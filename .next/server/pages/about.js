@@ -90,7 +90,7 @@ const About = ({ preview  })=>{
                                             className: "flex items-center md:mt-6",
                                             children: [
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                                    href: "/your_resume_here.pdf",
+                                                    href: "https://drive.google.com/file/d/1Fvfrb993eFMChLDFML6JDgM3FugMDUCH/view?usp=share_link",
                                                     className: "flex items-center mr-4 text-fore-primary border-2 border-accent w-fit px-4 py-1 rounded cursor-pointer hover:text-accent transition-colors",
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {

@@ -65,7 +65,7 @@ const IntroSection = ()=>{
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                 // upload your resume either on Cosmic or in the public file of this directory
-                                href: "https://drive.google.com/file/d/1MCMrdc39kXZS2gqdONaAfAHw0yig5EsE/view?usp=sharing",
+                                href: "https://drive.google.com/file/d/1Fvfrb993eFMChLDFML6JDgM3FugMDUCH/view?usp=share_link",
                                 className: "flex items-center mr-4 text-fore-primary border-2 border-accent w-fit px-4 py-1 rounded cursor-pointer hover:text-accent transition-colors",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -160,24 +160,12 @@ const DevIcon = ({ iconName , name  })=>{
 ;// CONCATENATED MODULE: ./src/configs/dev-icons.js
 const devIcons = [
     {
+        iconName: "devicon-java-plain",
+        name: "Java"
+    },
+    {
         iconName: "devicon-spring-plain",
         name: "Spring"
-    },
-    {
-        iconName: "devicon-react-plain",
-        name: "React"
-    },
-    {
-        iconName: "devicon-digitalocean-plain",
-        name: "Digitalocean"
-    },
-    {
-        iconName: "devicon-azure-plain",
-        name: "azure"
-    },
-    {
-        iconName: "devicon-docker-plain",
-        name: "Docker"
     },
     {
         iconName: "devicon-spring-plain",
@@ -188,10 +176,6 @@ const devIcons = [
         name: "Mysql"
     },
     {
-        iconName: "devicon-java-plain",
-        name: "Java"
-    },
-    {
         iconName: "devicon-html5-plain",
         name: "HTML"
     },
@@ -200,20 +184,32 @@ const devIcons = [
         name: "CSS"
     },
     {
+        iconName: "devicon-javascript-plain",
+        name: "JavaScript"
+    },
+    {
         iconName: "devicon-react-original",
         name: "React.js"
     },
     {
-        iconName: "devicon-nextjs-original",
-        name: "Next.js"
+        iconName: "devicon-npm-original-wordmark",
+        name: "NPM"
     },
     {
         iconName: "devicon-tailwindcss-plain",
         name: "Tailwind CSS"
     },
     {
-        iconName: "devicon-npm-original-wordmark",
-        name: "NPM"
+        iconName: "devicon-azure-plain",
+        name: "azure"
+    },
+    {
+        iconName: "devicon-digitalocean-plain",
+        name: "Digitalocean"
+    },
+    {
+        iconName: "devicon-docker-plain",
+        name: "Docker"
     },
     {
         iconName: "devicon-git-plain",
@@ -221,15 +217,7 @@ const devIcons = [
     },
     {
         iconName: "devicon-github-plain",
-        name: "Git"
-    },
-    {
-        iconName: "devicon-javascript-plain",
-        name: "JavaScript"
-    },
-    {
-        iconName: "devicon-ubuntu-plain",
-        name: "ubuntu"
+        name: "Github"
     }, 
 ];
 

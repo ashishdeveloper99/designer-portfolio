@@ -527,21 +527,21 @@ const SocialIcons = ()=>{
         className: "flex gap-x-5",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                href: "mailto:awesome@dev.com",
+                href: "mailto:ashishdhomne@hotmail.com ",
                 className: "group cursor-pointer",
                 "aria-label": "Email",
                 title: "Email",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_configs_icons__WEBPACK_IMPORTED_MODULE_1__/* .EmailIcon */ .LQ, {})
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                href: "https://github.com/username",
+                href: "https://github.com/ashishdeveloper99",
                 className: "group cursor-pointer",
                 "aria-label": "Github",
                 title: "Github",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_configs_icons__WEBPACK_IMPORTED_MODULE_1__/* .GithubIcon */ .ET, {})
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                href: "https://www.linkedin.com/in/username",
+                href: "https://www.linkedin.com/in/ashish-dhomne/",
                 className: "group cursor-pointer",
                 "aria-label": "Linkedin",
                 title: "Linkedin",
