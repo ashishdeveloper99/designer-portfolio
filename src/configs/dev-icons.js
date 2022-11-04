@@ -12,8 +12,9 @@ export const devIcons = [
   { iconName: 'devicon-tailwindcss-plain', name: 'Tailwind CSS' },
   { iconName: 'devicon-azure-plain', name: 'azure' },
   { iconName: 'devicon-digitalocean-plain', name: 'Digitalocean' },
-  { iconName: 'devicon-docker-plain', name: 'Docker' },
   { iconName: 'devicon-git-plain', name: 'Git' },
   { iconName: 'devicon-github-plain', name: 'Github' },
-
+  { iconName: 'devicon-trello-plain', name: 'Trello' },
+  { iconName: 'devicon-vscode-plain', name: 'vscode' },
+  
 ]

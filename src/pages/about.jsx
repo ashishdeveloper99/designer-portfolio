@@ -21,7 +21,7 @@ const About = ({ preview }) => {
             <div className="flex-1 relative">
               <Image
                 src={avatar}
-                alt="Stefan Kudla"
+                alt="Ashish Dhomne"
                 quality={85}
                 layout="responsive"
                 className="rounded-md"
