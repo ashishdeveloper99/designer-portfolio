@@ -14,6 +14,7 @@ export const devIcons = [
   { iconName: 'devicon-digitalocean-plain', name: 'Digitalocean' },
   { iconName: 'devicon-git-plain', name: 'Git' },
   { iconName: 'devicon-github-plain', name: 'Github' },
+  { iconName: 'devicon-sourcetree-plain', name: 'Sourcetree' },
   { iconName: 'devicon-trello-plain', name: 'Trello' },
   { iconName: 'devicon-vscode-plain', name: 'vscode' },
   

@@ -216,6 +216,10 @@ const devIcons = [
         name: "Github"
     },
     {
+        iconName: "devicon-sourcetree-plain",
+        name: "Sourcetree"
+    },
+    {
         iconName: "devicon-trello-plain",
         name: "Trello"
     },
