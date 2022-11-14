@@ -17,5 +17,7 @@ export const devIcons = [
   { iconName: 'devicon-sourcetree-plain', name: 'Sourcetree' },
   { iconName: 'devicon-trello-plain', name: 'Trello' },
   { iconName: 'devicon-vscode-plain', name: 'vscode' },
+  { iconName: 'devicon-intellij-plain', name: 'intellij IDE' },
+  { iconName: 'devicon-ubuntu-plain', name: 'ubuntu' },
   
 ]
