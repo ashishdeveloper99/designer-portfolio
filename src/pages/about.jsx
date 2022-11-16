@@ -32,9 +32,7 @@ const About = ({ preview }) => {
             <div className="flex-1 mt-12 md:mt-0 flex flex-col justify-start gap-y-8 pr-20">
               <p>I love solving problems!</p>
               <p>
-                My name is Ashish. Originally from rainy Seattle,
-                Washington, I now reside in the dry valley of Las Vegas, Nevada.
-                When I&apos
+                My name is Ashish. 
               </p>
               <p>Get in touch to create something awesome together!</p>
               <div className="flex items-center md:mt-6">

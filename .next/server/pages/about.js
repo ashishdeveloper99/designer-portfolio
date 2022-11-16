@@ -81,7 +81,7 @@ const About = ({ preview  })=>{
                                             children: "I love solving problems!"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "My name is Ashish. Originally from rainy Seattle, Washington, I now reside in the dry valley of Las Vegas, Nevada. When I&apos"
+                                            children: "My name is Ashish."
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                             children: "Get in touch to create something awesome together!"
