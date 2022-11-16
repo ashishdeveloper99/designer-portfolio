@@ -226,6 +226,14 @@ const devIcons = [
     {
         iconName: "devicon-vscode-plain",
         name: "vscode"
+    },
+    {
+        iconName: "devicon-intellij-plain",
+        name: "intellij IDE"
+    },
+    {
+        iconName: "devicon-ubuntu-plain",
+        name: "ubuntu"
     }, 
 ];
 
