@@ -12,7 +12,7 @@ module.exports = require("cosmicjs");
 
 /***/ }),
 
-/***/ 5310:
+/***/ 1382:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -69,16 +69,15 @@ async function getAllPostsWithSlug() {
 }
 async function getPostAndMorePosts(slug, preview) {
     try {
-        var ref;
         const data = await bucket.objects.find({
             slug: slug
         }).props("slug,title,metadata,created_at").status(preview ? "any" : "published");
         const moreObjects = await bucket.objects.find({
             type: "posts"
         }).props("slug,title,metadata,created_at").status(preview ? "any" : "published");
-        const morePosts = (ref = moreObjects.objects) === null || ref === void 0 ? void 0 : ref.filter(({ slug: object_slug  })=>object_slug !== slug).slice(0, 2);
+        const morePosts = moreObjects.objects?.filter(({ slug: object_slug  })=>object_slug !== slug).slice(0, 2);
         return {
-            post: data === null || data === void 0 ? void 0 : data.objects[0],
+            post: data?.objects[0],
             morePosts
         };
     } catch (error) {
@@ -136,7 +135,7 @@ async function preview(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(5310));
+var __webpack_exports__ = (__webpack_exec__(1382));
 module.exports = __webpack_exports__;
 
 })();

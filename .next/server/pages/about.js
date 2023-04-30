@@ -5,7 +5,7 @@ exports.id = 521;
 exports.ids = [521,197];
 exports.modules = {
 
-/***/ 1103:
+/***/ 7456:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -15,7 +15,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 4160:
+/***/ 2865:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -23,18 +23,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2086);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _configs_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6054);
-/* harmony import */ var _components_SocialIcons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4378);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5675);
+/* harmony import */ var _configs_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8853);
+/* harmony import */ var _components_SocialIcons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4699);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4615);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _public_images_avatar_4_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1103);
-/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5766);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9330);
-/* harmony import */ var _lib_cosmic__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1073);
+/* harmony import */ var _public_images_avatar_4_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7456);
+/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(571);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3287);
+/* harmony import */ var _lib_cosmic__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6701);
 
 
 
@@ -141,6 +140,20 @@ module.exports = require("next-themes");
 
 /***/ }),
 
+/***/ 3918:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-context.js");
+
+/***/ }),
+
+/***/ 5732:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-mode.js");
+
+/***/ }),
+
 /***/ 3280:
 /***/ ((module) => {
 
@@ -155,17 +168,10 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 4957:
+/***/ 4486:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/head.js");
-
-/***/ }),
-
-/***/ 4014:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
+module.exports = require("next/dist/shared/lib/image-blur-svg.js");
 
 /***/ }),
 
@@ -183,24 +189,10 @@ module.exports = require("next/dist/shared/lib/image-config.js");
 
 /***/ }),
 
-/***/ 8524:
+/***/ 9552:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 8020:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/mitt.js");
-
-/***/ }),
-
-/***/ 4406:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
+module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
@@ -218,20 +210,6 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js")
 
 /***/ }),
 
-/***/ 6220:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
-
-/***/ }),
-
-/***/ 299:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
-
-/***/ }),
-
 /***/ 3938:
 /***/ ((module) => {
 
@@ -239,31 +217,10 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
 
 /***/ }),
 
-/***/ 9565:
+/***/ 1109:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ 5789:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
-
-/***/ }),
-
-/***/ 1897:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
-
-/***/ }),
-
-/***/ 1428:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
 
 /***/ }),
 
@@ -274,27 +231,6 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
 
 /***/ }),
 
-/***/ 1292:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
-
-/***/ }),
-
-/***/ 4567:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
-
-/***/ }),
-
-/***/ 979:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
-
-/***/ }),
-
 /***/ 3297:
 /***/ ((module) => {
 
@@ -302,24 +238,17 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
-/***/ 6052:
+/***/ 7782:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
 
 /***/ }),
 
-/***/ 4226:
+/***/ 2470:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
-
-/***/ }),
-
-/***/ 5052:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
+module.exports = require("next/dist/shared/lib/side-effect.js");
 
 /***/ }),
 
@@ -327,6 +256,13 @@ module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/utils.js");
+
+/***/ }),
+
+/***/ 618:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -349,13 +285,6 @@ module.exports = require("next/router");
 
 module.exports = require("react");
 
-/***/ }),
-
-/***/ 997:
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
-
 /***/ })
 
 };
@@ -365,7 +294,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [676,664,675,54,307], () => (__webpack_exec__(4160)));
+var __webpack_exports__ = __webpack_require__.X(0, [86,249,609,615,853,669], () => (__webpack_exec__(2865)));
 module.exports = __webpack_exports__;
 
 })();
