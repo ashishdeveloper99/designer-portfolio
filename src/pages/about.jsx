@@ -32,7 +32,7 @@ const About = ({ preview }) => {
             <div className="flex-1 mt-12 md:mt-0 flex flex-col justify-start gap-y-8 pr-20">
               <p>I love solving problems!</p>
               <p>
-                My name is Ashish. 
+                My name is Ashish. to learn programming i used to APproch project based learning
               </p>
               <p>Get in touch to create something awesome together!</p>
               <div className="flex items-center md:mt-6">
