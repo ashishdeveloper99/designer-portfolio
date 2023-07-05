@@ -8,8 +8,8 @@ const IntroSection = () => {
   return (
     <section className="w-full flex flex-col-reverse md:flex-row justify-start">
       <div className="flex-1 flex flex-col gap-y-4">
-        <h1 className="text-3xl md:text-5xl font-bold max-w-2xl text-fore-primary">
-          Hello, I am Ashish 
+        <h1 className="text-2xl md:text-4xl font-bold max-w-2xl text-fore-primary">
+        こんにちは、アシッシュです
         </h1>
         <div className="flex items-center">
           <a
@@ -20,7 +20,7 @@ const IntroSection = () => {
             <span className="mr-2">
               <PaperIcon />
             </span>
-            Resume
+            履歴書
           </a>
           <SocialIcons />
         </div>

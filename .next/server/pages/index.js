@@ -5,7 +5,7 @@ exports.id = 405;
 exports.ids = [405,197];
 exports.modules = {
 
-/***/ 7456:
+/***/ 1103:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -15,7 +15,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 4750:
+/***/ 3350:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -27,21 +27,21 @@ __webpack_require__.d(__webpack_exports__, {
   "getStaticProps": () => (/* binding */ getStaticProps)
 });
 
-// EXTERNAL MODULE: ./node_modules/.pnpm/react@18.1.0/node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(2086);
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: ./src/lib/cosmic.js
-var cosmic = __webpack_require__(6701);
+var cosmic = __webpack_require__(1073);
 // EXTERNAL MODULE: ./src/components/SocialIcons.jsx
-var SocialIcons = __webpack_require__(4699);
+var SocialIcons = __webpack_require__(4378);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/configs/icons.jsx
-var icons = __webpack_require__(8853);
-// EXTERNAL MODULE: ./node_modules/.pnpm/next@13.3.2_react-dom@18.1.0_react@18.1.0/node_modules/next/image.js
-var next_image = __webpack_require__(4615);
+var icons = __webpack_require__(6054);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./public/images/avatar_4.png
-var avatar_4 = __webpack_require__(7456);
+var avatar_4 = __webpack_require__(1103);
 ;// CONCATENATED MODULE: ./src/sections/IntroSection.jsx
 
 
@@ -50,39 +50,39 @@ var avatar_4 = __webpack_require__(7456);
 
 
 const IntroSection = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "w-full flex flex-col-reverse md:flex-row justify-start",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "flex-1 flex flex-col gap-y-4",
                 children: [
-                    /*#__PURE__*/ jsx_runtime.jsx("h1", {
-                        className: "text-3xl md:text-5xl font-bold max-w-2xl text-fore-primary",
-                        children: "Hello, I am Ashish"
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                        className: "text-2xl md:text-4xl font-bold max-w-2xl text-fore-primary",
+                        children: "こんにちは、アシッシュです"
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex items-center",
                         children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                 // upload your resume either on Cosmic or in the public file of this directory
                                 href: "https://drive.google.com/file/d/1Fvfrb993eFMChLDFML6JDgM3FugMDUCH/view?usp=sharing",
                                 className: "flex items-center mr-4 text-fore-primary border-2 border-accent w-fit px-4 py-1 rounded cursor-pointer hover:text-accent transition-colors",
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime.jsx("span", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                         className: "mr-2",
-                                        children: /*#__PURE__*/ jsx_runtime.jsx(icons/* PaperIcon */.At, {})
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(icons/* PaperIcon */.At, {})
                                     }),
-                                    "Resume"
+                                    "履歴書"
                                 ]
                             }),
-                            /*#__PURE__*/ jsx_runtime.jsx(SocialIcons/* default */.Z, {})
+                            /*#__PURE__*/ jsx_runtime_.jsx(SocialIcons/* default */.Z, {})
                         ]
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "w-[80px] sm:w-[186px] relative mb-6 sm:mb-0 rounded-md",
-                children: /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
+                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: avatar_4/* default */.Z,
                     alt: "Ashish Dhomne",
                     height: 300,
@@ -97,8 +97,8 @@ const IntroSection = ()=>{
 };
 /* harmony default export */ const sections_IntroSection = (IntroSection);
 
-// EXTERNAL MODULE: ./node_modules/.pnpm/next@13.3.2_react-dom@18.1.0_react@18.1.0/node_modules/next/link.js
-var next_link = __webpack_require__(2249);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/sections/AboutMeSection.jsx
 
@@ -106,31 +106,31 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 const AboutMeSection = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "mt-24",
         children: [
-            /*#__PURE__*/ jsx_runtime.jsx("h3", {
+            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                 className: "text-2xl md:text-3xl mb-8 text-fore-primary border-b border-b-slate-200 dark:border-b-gray-600 w-fit",
-                children: "About Me"
+                children: "私について"
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("p", {
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8 ",
-                children: "Hi, I am a recently completed my . I have developed WebApps, APIs, Desktop Apps and Android Apps and I want to improve on Web technologies such as .NET Core  or  Node.js and React.."
+                children: "こんにちは、私は最近完成した です。 私は WebApp、API、デスクトップ アプリ、Android アプリを開発してきました。 .NET Core、Node.js、React などの Web テクノロジを改善したいと考えています。"
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("p", {
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-primary mb-8",
-                children: "Coming from a background from Commerce , I quickly found that writing code was a bit like putting the secret sauce on a vocal mix; there's not necessarily a single way to do it, and the person behind the keyboard has the power to put their style into a great solution."
+                children: "商業出身の私は、コードを書くのは秘密のソースを入れるようなものだとすぐに気づきました ボーカルミックスで。 必ずしも単一の方法があるわけではなく、 キーボードの背後にいる人は、自分のスタイルを表現する力を持っています。 素晴らしい解決策。"
             }),
-            /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                 href: "/about",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                     className: "flex items-center text-accent underline underline-offset-2 cursor-pointer hover:opacity-70 transition hover:translate-x-1 w-fit",
                     children: [
-                        /*#__PURE__*/ jsx_runtime.jsx("span", {
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
                             className: "mr-1",
-                            children: /*#__PURE__*/ jsx_runtime.jsx(icons/* ForwardArrowIcon */.RC, {})
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(icons/* ForwardArrowIcon */.RC, {})
                         }),
-                        "Learn more"
+                        "もっと詳しく知る"
                     ]
                 })
             })
@@ -142,13 +142,13 @@ const AboutMeSection = ()=>{
 ;// CONCATENATED MODULE: ./src/components/DevIcon.jsx
 
 const DevIcon = ({ iconName , name  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("li", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
         className: "flex items-center",
         children: [
-            /*#__PURE__*/ jsx_runtime.jsx("i", {
+            /*#__PURE__*/ jsx_runtime_.jsx("i", {
                 className: iconName
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("span", {
+            /*#__PURE__*/ jsx_runtime_.jsx("span", {
                 className: "ml-2",
                 children: name
             })
@@ -234,7 +234,7 @@ const devIcons = [
     {
         iconName: "devicon-ubuntu-plain",
         name: "ubuntu"
-    }
+    }, 
 ];
 
 ;// CONCATENATED MODULE: ./src/sections/ToolboxSection.jsx
@@ -244,25 +244,25 @@ const devIcons = [
 
 
 const TechSection = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "py-24",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
                 className: "flex items-center mb-8",
                 children: [
-                    /*#__PURE__*/ jsx_runtime.jsx("div", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "bg-back-subtle p-2 mr-4 rounded-full",
-                        children: /*#__PURE__*/ jsx_runtime.jsx(icons/* ToolboxIcon */.Yp, {})
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(icons/* ToolboxIcon */.Yp, {})
                     }),
-                    /*#__PURE__*/ jsx_runtime.jsx("h4", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                         className: "text-xl text-accent font-semibold",
                         children: "Toolbox"
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("ul", {
+            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
                 className: "grid grid-cols-2 sm:grid-cols-4 gap-6",
-                children: devIcons.map((icon)=>/*#__PURE__*/ jsx_runtime.jsx(components_DevIcon, {
+                children: devIcons.map((icon)=>/*#__PURE__*/ jsx_runtime_.jsx(components_DevIcon, {
                         name: icon.name,
                         iconName: icon.iconName
                     }, icon.name))
@@ -273,30 +273,30 @@ const TechSection = ()=>{
 /* harmony default export */ const ToolboxSection = (TechSection);
 
 // EXTERNAL MODULE: ./src/components/PostList.jsx
-var PostList = __webpack_require__(9190);
+var PostList = __webpack_require__(5833);
 ;// CONCATENATED MODULE: ./src/sections/WorksSection.jsx
 
 
 
 
 const WorksSection = ({ posts  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "mt-24",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
                 className: "flex items-center mb-8",
                 children: [
-                    /*#__PURE__*/ jsx_runtime.jsx("div", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "bg-back-subtle p-2 mr-4 rounded-full",
-                        children: /*#__PURE__*/ jsx_runtime.jsx(icons/* FlaskIcon */.Vz, {})
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(icons/* FlaskIcon */.Vz, {})
                     }),
-                    /*#__PURE__*/ jsx_runtime.jsx("h4", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                         className: "text-xl text-accent font-semibold",
                         children: "Works"
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime.jsx(PostList/* default */.Z, {
+            /*#__PURE__*/ jsx_runtime_.jsx(PostList/* default */.Z, {
                 allPosts: posts,
                 postType: "works",
                 home: true
@@ -311,23 +311,23 @@ const WorksSection = ({ posts  })=>{
 
 
 const PostsSection_WorksSection = ({ posts  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "mt-24",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
                 className: "flex items-center mb-8",
                 children: [
-                    /*#__PURE__*/ jsx_runtime.jsx("div", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "bg-back-subtle p-2 mr-4 rounded-full",
-                        children: /*#__PURE__*/ jsx_runtime.jsx(icons/* PencilIcon */.vd, {})
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(icons/* PencilIcon */.vd, {})
                     }),
-                    /*#__PURE__*/ jsx_runtime.jsx("h4", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                         className: "text-xl text-accent font-semibold",
                         children: "Posts"
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime.jsx(PostList/* default */.Z, {
+            /*#__PURE__*/ jsx_runtime_.jsx(PostList/* default */.Z, {
                 allPosts: posts,
                 postType: "posts",
                 home: true
@@ -342,25 +342,25 @@ const PostsSection_WorksSection = ({ posts  })=>{
 
 
 const ContactSection = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "group h-72 flex flex-col items-center justify-center my-32",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h3", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
                 className: "text-3xl flex items-center gap-x-2 font-bold",
                 children: [
-                    /*#__PURE__*/ jsx_runtime.jsx("span", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "bg-back-subtle p-1 rounded-full",
-                        children: /*#__PURE__*/ jsx_runtime.jsx(icons/* LetterIcon */.gv, {})
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(icons/* LetterIcon */.gv, {})
                     }),
                     " ",
                     "Get in touch"
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("p", {
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: "text-fore-subtle my-3 text-center",
                 children: "While I'm always looking for new opportunities, I'm currently looking for an awesome team to code with."
             }),
-            /*#__PURE__*/ jsx_runtime.jsx("a", {
+            /*#__PURE__*/ jsx_runtime_.jsx("a", {
                 href: "mailto:ashishdhomne@hotmail.com",
                 className: "text-white px-16 py-3.5 mt-8 text-xl bg-gradient-to-r from-accent to-violet-400 rounded hover:from-pink-500 hover:to-yellow-500",
                 children: "Say hello"
@@ -371,9 +371,9 @@ const ContactSection = ()=>{
 /* harmony default export */ const sections_ContactSection = (ContactSection);
 
 // EXTERNAL MODULE: ./src/components/Meta.jsx
-var Meta = __webpack_require__(571);
+var Meta = __webpack_require__(5766);
 // EXTERNAL MODULE: ./src/components/Layout.jsx + 6 modules
-var Layout = __webpack_require__(3287);
+var Layout = __webpack_require__(9330);
 ;// CONCATENATED MODULE: ./src/pages/index.jsx
 
 
@@ -386,25 +386,25 @@ var Layout = __webpack_require__(3287);
 
 
 const Index = ({ allPosts , allWorks , preview  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ jsx_runtime.jsx(Meta/* PageMeta */.Vj, {
+            /*#__PURE__*/ jsx_runtime_.jsx(Meta/* PageMeta */.Vj, {
                 title: "Ashishd.online",
                 description: "Developer Portfolio Template built with Next.js and Cosmic"
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Layout/* default */.Z, {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Layout/* default */.Z, {
                 preview: preview,
                 children: [
-                    /*#__PURE__*/ jsx_runtime.jsx(sections_IntroSection, {}),
-                    /*#__PURE__*/ jsx_runtime.jsx(sections_AboutMeSection, {}),
-                    /*#__PURE__*/ jsx_runtime.jsx(ToolboxSection, {}),
-                    /*#__PURE__*/ jsx_runtime.jsx(sections_WorksSection, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(sections_IntroSection, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(sections_AboutMeSection, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(ToolboxSection, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(sections_WorksSection, {
                         posts: allWorks
                     }),
-                    /*#__PURE__*/ jsx_runtime.jsx(PostsSection, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(PostsSection, {
                         posts: allPosts
                     }),
-                    /*#__PURE__*/ jsx_runtime.jsx(sections_ContactSection, {})
+                    /*#__PURE__*/ jsx_runtime_.jsx(sections_ContactSection, {})
                 ]
             })
         ]
@@ -448,20 +448,6 @@ module.exports = require("next-themes");
 
 /***/ }),
 
-/***/ 3918:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/amp-context.js");
-
-/***/ }),
-
-/***/ 5732:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/amp-mode.js");
-
-/***/ }),
-
 /***/ 3280:
 /***/ ((module) => {
 
@@ -476,10 +462,17 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 4486:
+/***/ 4957:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/image-blur-svg.js");
+module.exports = require("next/dist/shared/lib/head.js");
+
+/***/ }),
+
+/***/ 4014:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
 
 /***/ }),
 
@@ -497,10 +490,24 @@ module.exports = require("next/dist/shared/lib/image-config.js");
 
 /***/ }),
 
-/***/ 9552:
+/***/ 8524:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/image-loader");
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 8020:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/mitt.js");
+
+/***/ }),
+
+/***/ 4406:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
 
 /***/ }),
 
@@ -518,6 +525,20 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js")
 
 /***/ }),
 
+/***/ 6220:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
+/***/ 299:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
+
+/***/ }),
+
 /***/ 3938:
 /***/ ((module) => {
 
@@ -525,10 +546,31 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
 
 /***/ }),
 
-/***/ 1109:
+/***/ 9565:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
+module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
+
+/***/ }),
+
+/***/ 5789:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
+
+/***/ }),
+
+/***/ 1428:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
 
 /***/ }),
 
@@ -539,6 +581,27 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
 
 /***/ }),
 
+/***/ 1292:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
+
+/***/ }),
+
+/***/ 4567:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
+
+/***/ }),
+
+/***/ 979:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+
+/***/ }),
+
 /***/ 3297:
 /***/ ((module) => {
 
@@ -546,17 +609,24 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
-/***/ 7782:
+/***/ 6052:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
+module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
 
 /***/ }),
 
-/***/ 2470:
+/***/ 4226:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/side-effect.js");
+module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
+
+/***/ }),
+
+/***/ 5052:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 
 /***/ }),
 
@@ -564,13 +634,6 @@ module.exports = require("next/dist/shared/lib/side-effect.js");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 618:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -593,6 +656,13 @@ module.exports = require("next/router");
 
 module.exports = require("react");
 
+/***/ }),
+
+/***/ 997:
+/***/ ((module) => {
+
+module.exports = require("react/jsx-runtime");
+
 /***/ })
 
 };
@@ -602,7 +672,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [86,249,609,615,853,669,190], () => (__webpack_exec__(4750)));
+var __webpack_exports__ = __webpack_require__.X(0, [676,664,675,54,307,833], () => (__webpack_exec__(3350)));
 module.exports = __webpack_exports__;
 
 })();

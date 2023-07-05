@@ -6,26 +6,25 @@ const AboutMeSection = () => {
   return (
     <section className="mt-24">
       <h3 className="text-2xl md:text-3xl mb-8 text-fore-primary border-b border-b-slate-200 dark:border-b-gray-600 w-fit">
-        About Me
+      私について
       </h3>
       <p className="text-fore-primary mb-8 ">
-      Hi, I am a recently completed my . 
-      I have developed WebApps, APIs, Desktop Apps and Android Apps and 
-      I want to improve on Web technologies such as .NET Core  or  Node.js and React..
+      こんにちは、私は最近完成した です。
+       私は WebApp、API、デスクトップ アプリ、Android アプリを開発してきました。
+       .NET Core、Node.js、React などの Web テクノロジを改善したいと考えています。
       </p>
       <p className="text-fore-primary mb-8">
-        Coming from a background from Commerce , I
-        quickly found that writing code was a bit like putting the secret sauce
-        on a vocal mix; there&apos;s not necessarily a single way to do it, and
-        the person behind the keyboard has the power to put their style into a
-        great solution.
+      商業出身の私は、コードを書くのは秘密のソースを入れるようなものだとすぐに気づきました
+         ボーカルミックスで。 必ずしも単一の方法があるわけではなく、
+         キーボードの背後にいる人は、自分のスタイルを表現する力を持っています。
+         素晴らしい解決策。
       </p>
       <Link href="/about">
         <a className="flex items-center text-accent underline underline-offset-2 cursor-pointer hover:opacity-70 transition hover:translate-x-1 w-fit">
           <span className="mr-1">
             <ForwardArrowIcon />
           </span>
-          Learn more
+          もっと詳しく知る
         </a>
       </Link>
     </section>

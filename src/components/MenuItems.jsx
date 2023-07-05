@@ -4,20 +4,25 @@ import { useRouter } from 'next/router'
 export const routes = [
   {
     path: '/',
-    label: 'Home',
+    label: 'ホメパゲ',
   },
   {
     path: '/works',
-    label: 'Works',
+    label: '作品',
   },
   {
     path: '/posts',
-    label: 'Blog',
+    label: 'ブログ',
   },
  
   {
     path: '/about',
-    label: 'About',
+    label: '私について',
+  },
+
+  {
+    path: 'https://ashishd.online',
+    label: 'English',
   },
 ]
 
